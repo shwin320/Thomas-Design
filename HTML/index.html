@@ -1,1 +1,43 @@
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home | Thomas Design</title>
+    <style>
+      header{
+        text-align: right;
+      }
+      nav{
+        background-color: rgba(0, 0, 0, 0.25);
+        display: inline;
+      }
+      nav a{
+        color: white;
+        font-family: Roboto;
+        text-decoration: none;
+        padding-left: 4px;
+        padding-right: 4px;
+      }
+      nav a:hover{
+        transition: opacity 0.5s ease;
+        opacity: 0.5;
+      }
+      nav a:not(:hover){
+        transition: opacity 0.5s ease;
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a class="active" href="/">Home</a>
+        <a class="active" href="/about">About Me</a>
+        <a class="active" href="/blog">Blog</a>
+        <a class="active" href="/web">Web Design</a>
+        <a class="active" href="/graphics">Graphic Design</a>
+        <a class="active" href="/video">Video Editing</a>
+        <a class="active" href="/3d">3D Printing</a>
+      </nav>
+    </header>
+  </body>
+</html>
